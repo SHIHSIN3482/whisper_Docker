@@ -1,4 +1,4 @@
-FROM python:3.10  # ❗不要用 slim
+FROM python:3.10  
 
 # 安裝必要依賴：ffmpeg、build tools、numpy
 RUN apt-get update && \
