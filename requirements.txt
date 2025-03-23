@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+aiohttp
+openai-whisper
+torch==2.1.2
+torchaudio==2.1.2
+numpy

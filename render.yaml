@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: whisper-fastapi-docker
+    env: docker
+    plan: free
