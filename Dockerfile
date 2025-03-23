@@ -1,8 +1,9 @@
 FROM python:3.10-slim
 
 RUN apt-get update && \
-    apt-get install -y ffmpeg git && \
-    pip install --upgrade pip
+    apt-get install -y ffmpeg git build-essential && \
+    pip install --upgrade pip && \
+    pip install numpy
 
 WORKDIR /app
 COPY . /app
